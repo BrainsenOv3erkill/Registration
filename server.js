@@ -22,6 +22,8 @@ app.get("/", (req, res) => {
 
 app.post("/submit", (req, res) => {
 
+//  const { name, email, password } = req.body;    
+
   let datenSpeicher = []
     datenSpeicher.push(req.body.name)
     datenSpeicher.push(req.body.email)
